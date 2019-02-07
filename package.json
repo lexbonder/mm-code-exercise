@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "parcel code-exercise.html",
     "build": "parcel build code-exercise.html",
+    "build-scss": "node-sass global-styles/mm-code-exercise.scss global-styles/mm-code-exercise.css",
     "scss": "node-sass --watch global-styles/mm-code-exercise.scss global-styles/mm-code-exercise.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
