@@ -1,0 +1,20 @@
+{
+  "name": "mm-code-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code-exercise.html",
+  "scripts": {
+    "dev": "parcel code-exercise.html",
+    "build": "parcel build code-exercise.html",
+    "scss": "node-sass --watch global-styles/mm-code-exercise.scss global-styles/mm-code-exercise.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.11.0",
+    "parcel-bundler": "^1.11.0"
+  },
+  "dependencies": {}
+}

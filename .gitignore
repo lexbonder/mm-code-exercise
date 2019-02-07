@@ -1,0 +1,19 @@
+# NODE
+.node_modules
+node_modules
+*/node_modules
+/node_modules/*
+
+# Resources Folders
+/directions
+/references
+
+# OS X Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.lnk
+*~
+
+.cache/
